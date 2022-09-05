@@ -4,4 +4,13 @@
   <uuid>86762199-db18-4e9c-a45a-0b3019110caf</uuid>
   <decisionModel href="../rules/decisionModel.dmo#56c29a76-b613-4867-beb7-8d1cc6122d56"/>
   <targetRuleProject href="../../Modelo%20Calculo%20Quotacao#c80806e6-adcf-4b37-8e17-3c51ff42b75c"/>
+  <tags key="operationDescription">
+    <value><![CDATA["Modelo de Cotacao Preco"]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["modeloCalculoQuotacao"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
 </com.ibm.rules.studio.model.decisionservice:Operation>
