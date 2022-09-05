@@ -1,0 +1,9 @@
+{
+  "name" : "ADS Sample Machine Learning Provider",
+  "type" : "OPS",
+  "description" : "",
+  "mlUrl" : "https://ads-ml.ads-ml.apps.ads-2201-demo.cp.fyre.ibm.com",
+  "authUrl" : "",
+  "instanceId" : "",
+  "apiKey" : null
+}
