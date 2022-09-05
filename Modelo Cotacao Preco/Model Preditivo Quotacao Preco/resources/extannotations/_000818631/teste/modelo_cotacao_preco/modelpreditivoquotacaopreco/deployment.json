@@ -1,0 +1,31 @@
+{
+  "metadata" : {
+    "id" : "b9e60e2c-a16e-4a01-aac8-a32f1be07e2d",
+    "name" : "ML_Cotacao_Preco",
+    "description" : "ML Cotacao Preco",
+    "modified_at" : "2022-09-05T14:32:24.085Z",
+    "created_at" : "2022-09-05T14:32:24.085Z",
+    "owner" : "IBMid-550004D38A",
+    "space_id" : "310560f9-0904-4b5f-bbd2-ee50a1c211b6"
+  },
+  "entity" : {
+    "name" : "ML_Cotacao_Preco",
+    "space_id" : "310560f9-0904-4b5f-bbd2-ee50a1c211b6",
+    "custom" : { },
+    "online" : { },
+    "description" : "ML Cotacao Preco",
+    "status" : {
+      "state" : "ready",
+      "online_url" : {
+        "url" : "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/b9e60e2c-a16e-4a01-aac8-a32f1be07e2d/predictions"
+      },
+      "serving_urls" : [ "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/b9e60e2c-a16e-4a01-aac8-a32f1be07e2d/predictions", "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/ml_cotacao_preco/predictions" ]
+    },
+    "asset" : {
+      "id" : "4fa73caa-6e17-48e7-b58f-baabf7380558"
+    }
+  },
+  "name" : "ML_Cotacao_Preco",
+  "status" : "ready",
+  "deployedAt" : "2022-09-05T14:32:24.085Z"
+}

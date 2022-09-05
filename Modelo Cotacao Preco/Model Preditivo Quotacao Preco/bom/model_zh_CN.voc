@@ -1,0 +1,76 @@
+
+# _000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error#concept.label = 输出错误
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = 新建 {输出错误}符合条件：{0, 代码} {1, 讯息} 
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error.code#phrase.action = 设置{this}的当前 代码为{代码}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error.code#phrase.navigation = {this} 的{代码}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error.message#phrase.action = 设置{this}的当前 讯息为{讯息}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error.message#phrase.navigation = {this} 的{讯息}
+
+# _000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input#concept.label = ML 模型输入
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.Input(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Double,java.lang.Double,java.lang.Double)#phrase.navigation = 新建 {ML 模型输入}符合条件：{0, cd cliente} {1, cd cotacao} {2, cd produto cliente} {3, cd produto gam} {4, desc produto cliente} {5, desc produto gam} {6, dt cotacao} {7, marca solicitada cliente} {8, margem} {9, observacoes} {10, qt solicitada} {11, uf} {12, valor caixa} {13, valor margem} {14, valor unitario} 
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCliente#phrase.action = 设置{this}的当前 cd cliente为{cd cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCliente#phrase.addition_setter = 加{cd cliente}到{this}的属性当前 cd cliente里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCliente#phrase.navigation = {this} 的{cd cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCliente#phrase.subtraction_setter = 减{cd cliente}到{this}的属性当前 cd cliente里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCotacao#phrase.action = 设置{this}的当前 cd cotacao为{cd cotacao}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCotacao#phrase.addition_setter = 加{cd cotacao}到{this}的属性当前 cd cotacao里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCotacao#phrase.navigation = {this} 的{cd cotacao}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCotacao#phrase.subtraction_setter = 减{cd cotacao}到{this}的属性当前 cd cotacao里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoCliente#phrase.action = 设置{this}的当前 cd produto cliente为{cd produto cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoCliente#phrase.addition_setter = 加{cd produto cliente}到{this}的属性当前 cd produto cliente里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoCliente#phrase.navigation = {this} 的{cd produto cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoCliente#phrase.subtraction_setter = 减{cd produto cliente}到{this}的属性当前 cd produto cliente里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoGam#phrase.action = 设置{this}的当前 cd produto gam为{cd produto gam}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoGam#phrase.addition_setter = 加{cd produto gam}到{this}的属性当前 cd produto gam里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoGam#phrase.navigation = {this} 的{cd produto gam}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoGam#phrase.subtraction_setter = 减{cd produto gam}到{this}的属性当前 cd produto gam里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.descProdutoCliente#phrase.action = 设置{this}的当前 desc produto cliente为{desc produto cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.descProdutoCliente#phrase.navigation = {this} 的{desc produto cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.descProdutoGam#phrase.action = 设置{this}的当前 desc produto gam为{desc produto gam}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.descProdutoGam#phrase.navigation = {this} 的{desc produto gam}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.dtCotacao#phrase.action = 设置{this}的当前 dt cotacao为{dt cotacao}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.dtCotacao#phrase.navigation = {this} 的{dt cotacao}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.marcaSolicitadaCliente#phrase.action = 设置{this}的当前 marca solicitada cliente为{marca solicitada cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.marcaSolicitadaCliente#phrase.navigation = {this} 的{marca solicitada cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.margem_#phrase.action = 设置{this}的当前 margem为{margem}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.margem_#phrase.addition_setter = 加{margem}到{this}的属性当前 margem里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.margem_#phrase.navigation = {this} 的{margem}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.margem_#phrase.subtraction_setter = 减{margem}到{this}的属性当前 margem里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.observacoes#phrase.action = 设置{this}的当前 observacoes为{observacoes}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.observacoes#phrase.navigation = {this} 的{observacoes}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.qtSolicitada#phrase.action = 设置{this}的当前 qt solicitada为{qt solicitada}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.qtSolicitada#phrase.addition_setter = 加{qt solicitada}到{this}的属性当前 qt solicitada里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.qtSolicitada#phrase.navigation = {this} 的{qt solicitada}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.qtSolicitada#phrase.subtraction_setter = 减{qt solicitada}到{this}的属性当前 qt solicitada里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.uf#phrase.action = 设置{this}的当前 uf为{uf}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.uf#phrase.navigation = {this} 的{uf}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorCaixa#phrase.action = 设置{this}的当前 valor caixa为{valor caixa}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorCaixa#phrase.addition_setter = 加{valor caixa}到{this}的属性当前 valor caixa里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorCaixa#phrase.navigation = {this} 的{valor caixa}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorCaixa#phrase.subtraction_setter = 减{valor caixa}到{this}的属性当前 valor caixa里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorMargem#phrase.action = 设置{this}的当前 valor margem为{valor margem}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorMargem#phrase.addition_setter = 加{valor margem}到{this}的属性当前 valor margem里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorMargem#phrase.navigation = {this} 的{valor margem}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorMargem#phrase.subtraction_setter = 减{valor margem}到{this}的属性当前 valor margem里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorUnitario#phrase.action = 设置{this}的当前 valor unitario为{valor unitario}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorUnitario#phrase.addition_setter = 加{valor unitario}到{this}的属性当前 valor unitario里
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorUnitario#phrase.navigation = {this} 的{valor unitario}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorUnitario#phrase.subtraction_setter = 减{valor unitario}到{this}的属性当前 valor unitario里
+
+# _000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output#concept.label = ML 模型输出
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.Output(java.lang.String,java.util.List)#phrase.navigation = 新建 {ML 模型输出}符合条件：{0, prediction} {1, probability} 
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.addTo_probability(java.lang.Double)#phrase.action = 在{this}的这些 probability中增加{0}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.clear_probability()#phrase.action = 删除这些 probability的 {this}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.error#phrase.action = 设置{this}的当前 错误为{错误}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.error#phrase.clearer = 删除当前 错误的{this}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.error#phrase.navigation = {this} 的{错误}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.inError()#phrase.navigation = {this} 是当前 出错
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.prediction#phrase.action = 设置{this}的当前 prediction为{prediction}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.prediction#phrase.navigation = {this} 的{prediction}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.probability#phrase.action = 设置{this}的当前 probability为{probability}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.probability#phrase.navigation = {this} 的{probability}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.removeFrom_probability(java.lang.Double)#phrase.action = 从{this}的这些 probability中删除{0}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.run(_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input)#phrase.navigation = predict({0})

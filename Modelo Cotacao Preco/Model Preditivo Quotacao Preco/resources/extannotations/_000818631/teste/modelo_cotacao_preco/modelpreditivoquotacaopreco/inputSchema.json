@@ -1,0 +1,64 @@
+{
+  "id" : "auto_ai_kb_input_schema",
+  "fields" : [ {
+    "name" : "CD_COTAÇÃO",
+    "type" : "integer",
+    "nullable" : true
+  }, {
+    "name" : "DT_COTAÇÃO",
+    "type" : "other",
+    "nullable" : true
+  }, {
+    "name" : "CD_CLIENTE",
+    "type" : "integer",
+    "nullable" : true
+  }, {
+    "name" : "CD_PRODUTO_CLIENTE",
+    "type" : "integer",
+    "nullable" : true
+  }, {
+    "name" : "DESC_PRODUTO_CLIENTE",
+    "type" : "other",
+    "nullable" : true
+  }, {
+    "name" : "MARCA_SOLICITADA_CLIENTE",
+    "type" : "other",
+    "nullable" : true
+  }, {
+    "name" : "QT_SOLICITADA",
+    "type" : "integer",
+    "nullable" : true
+  }, {
+    "name" : "CD_PRODUTO_GAM",
+    "type" : "integer",
+    "nullable" : true
+  }, {
+    "name" : "DESC_PRODUTO_GAM",
+    "type" : "other",
+    "nullable" : true
+  }, {
+    "name" : "VALOR_UNITÁRIO",
+    "type" : "double",
+    "nullable" : true
+  }, {
+    "name" : "VALOR_CAIXA",
+    "type" : "double",
+    "nullable" : true
+  }, {
+    "name" : "VALOR_MARGEM",
+    "type" : "double",
+    "nullable" : true
+  }, {
+    "name" : "MARGEM_%",
+    "type" : "double",
+    "nullable" : true
+  }, {
+    "name" : "OBSERVAÇÕES",
+    "type" : "other",
+    "nullable" : true
+  }, {
+    "name" : "UF",
+    "type" : "other",
+    "nullable" : true
+  } ]
+}

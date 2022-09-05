@@ -1,0 +1,94 @@
+
+# Term: Entrée de modèle ML
+@Entrée\ de\ modèle\ ML#gender = FEMALE
+
+# Term: Erreur de sortie
+@Erreur\ de\ sortie#gender = FEMALE
+
+# Term: Sortie de modèle ML
+@Sortie\ de\ modèle\ ML#gender = FEMALE
+
+# Term: code
+@code#gender = MALE
+
+# Term: erreur
+@erreur#gender = FEMALE
+
+# Term: message
+@message#gender = MALE
+
+# _000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error#concept.label = Erreur de sortie
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = une nouvelle {Erreur de sortie} tel que {0, code} {1, message} 
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error.code#phrase.action = assigner le code {this,PARTITIVE_ARTICLE} à {code}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error.code#phrase.navigation = {code} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error.message#phrase.action = assigner le message {this,PARTITIVE_ARTICLE} à {message}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Error.message#phrase.navigation = {message} {this,PARTITIVE_ARTICLE}
+
+# _000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input#concept.label = Entrée de modèle ML
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.Input(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Double,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Double,java.lang.Double,java.lang.Double)#phrase.navigation = une nouvelle {Entrée de modèle ML} tel que {0, cd cliente} {1, cd cotacao} {2, cd produto cliente} {3, cd produto gam} {4, desc produto cliente} {5, desc produto gam} {6, dt cotacao} {7, marca solicitada cliente} {8, margem} {9, observacoes} {10, qt solicitada} {11, uf} {12, valor caixa} {13, valor margem} {14, valor unitario} 
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCliente#phrase.action = assigner le cd cliente {this,PARTITIVE_ARTICLE} à {cd cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCliente#phrase.addition_setter = ajouter {cd cliente} au cd cliente {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCliente#phrase.navigation = {cd cliente} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCliente#phrase.subtraction_setter = retirer {cd cliente} du cd cliente {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCotacao#phrase.action = assigner le cd cotacao {this,PARTITIVE_ARTICLE} à {cd cotacao}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCotacao#phrase.addition_setter = ajouter {cd cotacao} au cd cotacao {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCotacao#phrase.navigation = {cd cotacao} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdCotacao#phrase.subtraction_setter = retirer {cd cotacao} du cd cotacao {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoCliente#phrase.action = assigner le cd produto cliente {this,PARTITIVE_ARTICLE} à {cd produto cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoCliente#phrase.addition_setter = ajouter {cd produto cliente} au cd produto cliente {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoCliente#phrase.navigation = {cd produto cliente} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoCliente#phrase.subtraction_setter = retirer {cd produto cliente} du cd produto cliente {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoGam#phrase.action = assigner le cd produto gam {this,PARTITIVE_ARTICLE} à {cd produto gam}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoGam#phrase.addition_setter = ajouter {cd produto gam} au cd produto gam {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoGam#phrase.navigation = {cd produto gam} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.cdProdutoGam#phrase.subtraction_setter = retirer {cd produto gam} du cd produto gam {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.descProdutoCliente#phrase.action = assigner le desc produto cliente {this,PARTITIVE_ARTICLE} à {desc produto cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.descProdutoCliente#phrase.navigation = {desc produto cliente} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.descProdutoGam#phrase.action = assigner le desc produto gam {this,PARTITIVE_ARTICLE} à {desc produto gam}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.descProdutoGam#phrase.navigation = {desc produto gam} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.dtCotacao#phrase.action = assigner le dt cotacao {this,PARTITIVE_ARTICLE} à {dt cotacao}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.dtCotacao#phrase.navigation = {dt cotacao} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.marcaSolicitadaCliente#phrase.action = assigner le marca solicitada cliente {this,PARTITIVE_ARTICLE} à {marca solicitada cliente}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.marcaSolicitadaCliente#phrase.navigation = {marca solicitada cliente} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.margem_#phrase.action = assigner le margem {this,PARTITIVE_ARTICLE} à {margem}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.margem_#phrase.addition_setter = ajouter {margem} au margem {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.margem_#phrase.navigation = {margem} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.margem_#phrase.subtraction_setter = retirer {margem} du margem {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.observacoes#phrase.action = assigner l'observacoes {this,PARTITIVE_ARTICLE} à {observacoes}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.observacoes#phrase.navigation = {observacoes} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.qtSolicitada#phrase.action = assigner le qt solicitada {this,PARTITIVE_ARTICLE} à {qt solicitada}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.qtSolicitada#phrase.addition_setter = ajouter {qt solicitada} au qt solicitada {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.qtSolicitada#phrase.navigation = {qt solicitada} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.qtSolicitada#phrase.subtraction_setter = retirer {qt solicitada} du qt solicitada {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.uf#phrase.action = assigner l'uf {this,PARTITIVE_ARTICLE} à {uf}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.uf#phrase.navigation = {uf} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorCaixa#phrase.action = assigner le valor caixa {this,PARTITIVE_ARTICLE} à {valor caixa}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorCaixa#phrase.addition_setter = ajouter {valor caixa} au valor caixa {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorCaixa#phrase.navigation = {valor caixa} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorCaixa#phrase.subtraction_setter = retirer {valor caixa} du valor caixa {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorMargem#phrase.action = assigner le valor margem {this,PARTITIVE_ARTICLE} à {valor margem}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorMargem#phrase.addition_setter = ajouter {valor margem} au valor margem {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorMargem#phrase.navigation = {valor margem} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorMargem#phrase.subtraction_setter = retirer {valor margem} du valor margem {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorUnitario#phrase.action = assigner le valor unitario {this,PARTITIVE_ARTICLE} à {valor unitario}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorUnitario#phrase.addition_setter = ajouter {valor unitario} au valor unitario {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorUnitario#phrase.navigation = {valor unitario} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input.valorUnitario#phrase.subtraction_setter = retirer {valor unitario} du valor unitario {this,PARTITIVE_ARTICLE}
+
+# _000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output#concept.label = Sortie de modèle ML
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.Output(java.lang.String,java.util.List)#phrase.navigation = une nouvelle {Sortie de modèle ML} tel que {0, prediction} {1, probability} 
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.addTo_probability(java.lang.Double)#phrase.action = ajouter {0} à la liste des probabilitys {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.clear_probability()#phrase.action = effacer les probabilitys {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.error#phrase.action = assigner l'erreur {this,PARTITIVE_ARTICLE} à {erreur}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.error#phrase.clearer = effacer l'erreur {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.error#phrase.navigation = {erreur} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.inError()#phrase.navigation = {this} est en erreur
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.prediction#phrase.action = assigner le prediction {this,PARTITIVE_ARTICLE} à {prediction}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.prediction#phrase.navigation = {prediction} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.probability#phrase.action = assigner les probabilitys {this,PARTITIVE_ARTICLE} à {probability}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.probability#phrase.navigation = {probability} {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.removeFrom_probability(java.lang.Double)#phrase.action = retirer {0} de la liste des probabilitys {this,PARTITIVE_ARTICLE}
+_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Output.run(_000818631.teste.modelo_cotacao_preco.modelpreditivoquotacaopreco.Input)#phrase.navigation = predict({0})
